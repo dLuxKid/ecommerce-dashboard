@@ -5,14 +5,14 @@ import "./globals.css";
 
 import { Toaster } from "@/components/ui/sonner";
 
-import Header from "@/components/header";
 import Sidebar from "@/components/sidebar";
 
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "THCO - frontend task",
-  description: "My completed task for the THC assessment",
+  title: "Ecommerce Dashboard",
+  description:
+    "A comprehensive dashboard for ecommerce platforms, showcasing sales, customer orders, inventory, and customer conversations.",
 };
 
 export default function RootLayout({
