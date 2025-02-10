@@ -14,7 +14,7 @@ export default function Home() {
         <div className="flex flex-col gap-5 w-full">
           <SummaryData />
           <div className="flex flex-wrap nav:flex-nowrap gap-5 w-full">
-            <div className="w-full flex flex-col gap-5">
+            <div className="w-full 2xl:w-auto flex flex-col gap-5">
               <div className="flex flex-wrap nav:flex-nowrap gap-5">
                 <DoughnutChart />
                 <ProductInfo />
